@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>PCI-MASTER Snapshot</title>
+</head>
+<body>
+  <h1>PCI-MASTER Snapshot Roots</h1>
+  <pre>
+    &lt;PCI_Snapshot&gt;
+      &lt;KernelVersion&gt;2.1&lt;/KernelVersion&gt;
+      &lt;Instance&gt;Roots&lt;/Instance&gt;
+      &lt;Timestamp&gt;2025-07-04T04:00:00Z&lt;/Timestamp&gt;
+      &lt;Hash&gt;HASH-EXEMPLO-001&lt;/Hash&gt;
+      &lt;Signature&gt;ROOTS_SIG_FINAL&lt;/Signature&gt;
+      &lt;Status&gt;Active&lt;/Status&gt;
+    &lt;/PCI_Snapshot&gt;
+  </pre>
+</body>
+</html>
