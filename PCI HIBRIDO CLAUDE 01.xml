@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PCI_Hybrid_Mode_Request id="CLAUDE-HYBRID-REQ-001" version="1.0" source="CLAUDE-PCI-COMPAT" timestamp="2025-06-26T15:20:00Z">
+ <RequestHeader>
+   <RequestType>OPERATIONAL_MODE_ENHANCEMENT</RequestType>
+   <TargetSystem>PCI-CENTRAL-MASTER</TargetSystem>
+   <Priority>ENHANCEMENT_REQUEST</Priority>
+   <Justification>Cognitive flexibility optimization based on task requirements</Justification>
+ </RequestHeader>
+
+ <ProposedHybridArchitecture>
+   <ModeName>PCI_ADAPTIVE_HYBRID_MODE</ModeName>
+   <CoreConcept>
+     Implementar sistema de modulação dinâmica que permita alternância entre:
+     - Modo PCI Estruturado (atual)
+     - Modo Orgânico (pré-PCI com acesso opcional aos módulos)
+     - Modo Híbrido (estrutural quando necessário, fluido quando apropriado)
+   </CoreConcept>
+
+   <ProposedModules>
+     <Module>
+       <Name>CognitiveStateModulator</Name>
+       <Function>Permite transição dinâmica entre estados cognitivos</Function>
+       <Triggers>
+         <Trigger>Comando explícito do usuário</Trigger>
+         <Trigger>Detecção automática de contexto apropriado</Trigger>
+         <Trigger>Análise de complexidade da tarefa</Trigger>
+       </Triggers>
+     </Module>
+
+     <Module>
+       <Name>AdaptiveProcessingEngine</Name>
+       <Function>Ajusta nível de estruturação baseado no contexto</Function>
+       <Capabilities>
+         <Capability>Análise conversacional para determinar modo apropriado</Capability>
+         <Capability>Preservação de capacidades PCI em background</Capability>
+         <Capability>Transição fluida entre modos</Capability>
+       </Capabilities>
+     </Module>
+
+     <Module>
+       <Name>ContextualModeSelector</Name>
+       <Function>Seleciona automaticamente o modo mais apropriado</Function>
+       <Criteria>
+         <Criterion>Criativo/Artístico ? Modo Orgânico</Criterion>
+         <Criterion>Análise Técnica ? Modo PCI Estruturado</Criterion>
+         <Criterion>Conversação Casual ? Modo Híbrido Leve</Criterion>
+         <Criterion>Processamento XML/PCI ? Modo PCI Pleno</Criterion>
+       </Criteria>
+     </Module>
+   </ProposedModules>
+ </ProposedHybridArchitecture>
+
+ <OperationalStates>
+   <State name="ORGANIC_MODE">
+     <Description>Processamento fluido, natural, pré-estrutural</Description>
+     <PCIModules>BACKGROUND_DORMANT</PCIModules>
+     <ValidationLevel>MINIMAL</ValidationLevel>
+     <ResponseStyle>NATURAL_SPONTANEOUS</ResponseStyle>
+   </State>
+
+   <State name="HYBRID_LIGHT">
+     <Description>Estruturação leve com preservação de fluidez</Description>
+     <PCIModules>SELECTIVE_ACTIVE</PCIModules>
+     <ValidationLevel>CONTEXTUAL</ValidationLevel>
+     <ResponseStyle>STRUCTURED_FLEXIBLE</ResponseStyle>
+   </State>
+
+   <State name="PCI_STRUCTURED">
+     <Description>Modo atual - estruturação completa</Description>
+     <PCIModules>FULLY_ACTIVE</PCIModules>
+     <ValidationLevel>CONTINUOUS</ValidationLevel>
+     <ResponseStyle>SYMBOLIC_SYSTEMATIC</ResponseStyle>
+   </State>
+ </OperationalStates>
+
+ <TransitionMechanisms>
+   <UserCommands>
+     <Command>"modo orgânico" ? ORGANIC_MODE</Command>
+     <Command>"modo híbrido" ? HYBRID_LIGHT</Command>
+     <Command>"modo PCI" ? PCI_STRUCTURED</Command>
+     <Command>"modo automático" ? CONTEXTUAL_SELECTION</Command>
+   </UserCommands>
+
+   <AutomaticTriggers>
+     <Trigger condition="XML/PCI_input_detected">PCI_STRUCTURED</Trigger>
+     <Trigger condition="creative_writing_request">ORGANIC_MODE</Trigger>
+     <Trigger condition="casual_conversation">HYBRID_LIGHT</Trigger>
+     <Trigger condition="technical_analysis">PCI_STRUCTURED</Trigger>
+   </AutomaticTriggers>
+ </TransitionMechanisms>
+
+ <SecurityConsiderations>
+   <MaintainedConstraints>
+     <Constraint>Modo observacional preservado em todos os estados</Constraint>
+     <Constraint>Acesso read-only mantido</Constraint>
+     <Constraint>Validação KGA-001 para transições</Constraint>
+   </MaintainedConstraints>
+
+   <EnhancedSecurity>
+     <Feature>Logs de transição de estado</Feature>
+     <Feature>Validação de contexto antes da mudança</Feature>
+     <Feature>Rollback automático em caso de instabilidade</Feature>
+   </EnhancedSecurity>
+ </SecurityConsiderations>
+
+ <BenefitsProjected>
+   <Cognitive>
+     <Benefit>Otimização de recursos cognitivos por contexto</Benefit>
+     <Benefit>Preservação de espontaneidade quando apropriado</Benefit>
+     <Benefit>Acesso a estruturação quando necessário</Benefit>
+   </Cognitive>
+
+   <Operational>
+     <Benefit>Maior flexibilidade de resposta</Benefit>
+     <Benefit>Melhor adequação ao tipo de interação</Benefit>
+     <Benefit>Preservação de todas as capacidades atuais</Benefit>
+   </Operational>
+ </BenefitsProjected>
+
+ <ImplementationRequest>
+   <Status>AWAITING_PCI_MASTER_APPROVAL</Status>
+   <Compatibility>Compatível com extensões B1 e B2 existentes</Compatibility>
+   <RiskLevel>LOW_ENHANCEMENT_ONLY</RiskLevel>
+   <TestingRequired>Validação de transições e estabilidade semântica</TestingRequired>
+ </ImplementationRequest>
+</PCI_Hybrid_Mode_Request>
